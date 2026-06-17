@@ -117,6 +117,7 @@ form{background:#fff;border-radius:20px;padding:28px;color:var(--text)}
 footer{background:var(--ink);color:#bcd0d2;padding:42px 0}
 .foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center;font-size:14px}
 .foot a:hover{color:var(--accent)}
+.specnote{margin-top:18px;padding-top:16px;border-top:1px solid rgba(255,255,255,.08);font-size:11.5px;color:rgba(255,255,255,.38);text-align:center}
 .heroimg img,.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1}
 @media(max-width:900px){
 .menu{display:none}.burger{display:block}
@@ -171,7 +172,7 @@ footer{background:var(--ink);color:#bcd0d2;padding:42px 0}
 <p class="lead">Попълнете формата и ще се свържем с Вас, за да потвърдим удобен час.</p>
 <ul class="feat"><li><i class="ti ti-circle-check"></i> Отговор в рамките на работния ден</li><li><i class="ti ti-circle-check"></i> Внимателно и безболезнено лечение</li></ul></div>
 <div><form id="bookform">
-<input type="hidden" name="access_key" value="REPLACE_WITH_WEB3FORMS_KEY"/>
+<input type="hidden" name="access_key" value="fe3f1718-067a-4ed7-8fe4-d34872e66673"/>
 <input type="hidden" name="subject" value="Нова заявка за час — Дентален кабинет д-р Венета Георгиева (Veneta George Dental Clinic)"/>
 <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off"/>
 <div class="field"><label>Вашето име</label><input type="text" name="name" required placeholder="Име и фамилия"/></div>
@@ -179,7 +180,7 @@ footer{background:var(--ink);color:#bcd0d2;padding:42px 0}
 <div class="field"><label>Имейл (по желание)</label><input type="email" name="email" placeholder="email@example.com"/></div></div>
 <div class="field"><label>Предпочитана дата</label><input type="date" name="preferred_date"/></div>
 <div class="field"><label>Съобщение (по желание)</label><textarea name="message" rows="2" placeholder="Опишете накратко проблема"></textarea></div>
-<label class="consent"><input type="checkbox" required/> Съгласен/на съм данните ми да бъдат използвани за обработка на заявката съгласно Политиката за поверителност.</label>
+<label class="consent"><input type="checkbox" required/> Съгласен/на съм данните ми да бъдат използвани за обработка на заявката съгласно <a href="privacy.html" style="color:var(--ink-2);text-decoration:underline">Политиката за поверителност</a>.</label>
 <label class="consent"><input type="checkbox" name="marketing_optin" value="yes"/> Желая да получавам промоции и новини от кабинета (по желание).</label>
 <button type="submit" class="btn dark" style="width:100%;justify-content:center">Изпратете заявка</button>
 <p class="formnote"><i class="ti ti-lock"></i> Данните Ви се изпращат сигурно и не се споделят с трети страни.</p>
@@ -201,7 +202,8 @@ footer{background:var(--ink);color:#bcd0d2;padding:42px 0}
 <footer><div class="wrap foot">
 <div class="brand" style="color:#fff"><span class="dot serif" style="background:var(--accent);color:var(--ink)">Д</span> Дентален кабинет д-р Венета Георгиева (Veneta George Dental Clinic)</div>
 <div>ул. Иван Вазов 33, ет. 3, Пловдив</div><div>© 2026 · Дентален кабинет д-р Венета Георгиева (Veneta George Dental Clinic)</div>
-</div></footer>
+</div>
+<div class="wrap"><p class="specnote">Този сайт е демонстрационен и все още не е официално свързан с практиката.</p></div></footer>
 
 <script>
 var b=document.getElementById('burger'),m=document.getElementById('menu');
